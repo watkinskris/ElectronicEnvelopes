@@ -1,32 +1,32 @@
 public class Envelopes {
-    String name;
-    double amount;
+    private String name;
+    private double amount;
 
     Envelopes(){
     }
 
-    Envelopes(String name){
+    public Envelopes(String name){
         this.name = name;
     }
 
-    Envelopes(String name, double amount){
+    public Envelopes(String name, double amount){
         this.name = name;
         this.amount = amount;
     }
 
-    String getEnvelopeName(){
+    public String getEnvelopeName(){
         return name;
     }
 
-    double getEnvelopeAmount(){
+    public double getEnvelopeAmount(){
         return amount;
     }
 
-    void setEnvelopeName(String name){
+    public void setEnvelopeName(String name){
         this.name = name;
     }
 
-    void setEnvelopAmount(double amount){
+    public void setEnvelopAmount(double amount){
         this.amount = amount;
     }
 }
